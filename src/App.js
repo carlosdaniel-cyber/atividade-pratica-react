@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import BasicExample from './partials/HeaderPartial/HeaderPartial';
+import HeaderPartial from './partials/HeaderPartial/HeaderPartial';
 
 function App() {
   return (
     <div className="App">
-      <BasicExample />
+      <HeaderPartial />
     </div>
   );
 }
